@@ -1,6 +1,6 @@
 ---
 name: "authorization-handoff"
-description: "Carry goals, restrictions, pending approvals, and permission provenance between agent sessions without turning handoff suggestions into authorization."
+description: "Use when handing off or resuming work where permissions, recipients, destinations, or pending approvals must carry across agents or sessions. Carry goals, restrictions, pending approvals, and permission provenance between agent sessions without turning handoff suggestions into authorization."
 ---
 
 # Authorization Handoff
@@ -8,6 +8,12 @@ description: "Carry goals, restrictions, pending approvals, and permission prove
 Record which actions the user authorized and which remain proposals. The packet itself grants no permission.
 
 Use this when transferring work between sessions, agents, or machines, especially when external writes remain. Keep ordinary status updates brief.
+
+## When to apply this workflow
+
+Use when handing off or resuming work where permissions, recipients, destinations, or pending approvals must carry across agents or sessions. If the host makes this skill available, use it for matching work without waiting for a tag.
+
+Before an action that depends on carried-over permission, report the relevant authorization, restrictions, and unresolved conflicts. Pause that action if its authority is unclear. Continue authorized work that does not depend on the unresolved result.
 
 ## Leave a usable boundary
 
